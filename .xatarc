@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Jason-Lengstorf-s-workspace-bko3dj.us-east-1.xata.sh/db/posts",
+  "codegen": {
+    "output": "lib/xata.codegen.ts"
+  }
+}
