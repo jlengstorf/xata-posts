@@ -7,7 +7,7 @@ export const Post = ({ post }: { post: PostsRecord }) => {
 		<article>
 			<h2>{post.title}</h2>
 			<p>{post.text}</p>
-			<UpboatButton count={post.upboats} />
+			<UpboatButton count={post.upboats} postId={post.id} />
 		</article>
 	);
 };
