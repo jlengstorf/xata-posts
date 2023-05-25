@@ -15,6 +15,7 @@ const tables = [
       { name: "slug", type: "string" },
       { name: "text", type: "text" },
       { name: "created_at", type: "datetime" },
+      { name: "upboats", type: "int", notNull: true, defaultValue: "0" },
     ],
   },
 ] as const;
