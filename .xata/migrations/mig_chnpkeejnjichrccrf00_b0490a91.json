@@ -1,0 +1,18 @@
+{
+  "id": "mig_chnpkeejnjichrccrf00",
+  "parentID": "mig_chnp9bmvag9utr5gut10",
+  "checksum": "1:b0490a91906b26f9aab4704061bb9cf6c3f6f14715f94a9e18e125bd50407b57",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "upboats",
+          "type": "int",
+          "notNull": true,
+          "defaultValue": "0"
+        },
+        "table": "posts"
+      }
+    }
+  ]
+}

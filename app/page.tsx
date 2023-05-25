@@ -7,8 +7,6 @@ export default async function Home() {
 
 	const posts = await xata.db.posts.getAll();
 
-	console.log(posts);
-
 	return (
 		<main>
 			<div>
@@ -19,3 +17,5 @@ export default async function Home() {
 		</main>
 	);
 }
+
+export const dynamic = 'force-dynamic';

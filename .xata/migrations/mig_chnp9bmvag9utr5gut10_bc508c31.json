@@ -1,0 +1,16 @@
+{
+  "id": "mig_chnp9bmvag9utr5gut10",
+  "parentID": "mig_chnp97ujnjichrccqjcg",
+  "checksum": "1:bc508c312d2de89be13485223aa334a3f0d7d5bc4bad105e3e3f5e2cf3f1787f",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "created_at",
+          "type": "datetime"
+        },
+        "table": "posts"
+      }
+    }
+  ]
+}
